@@ -1,0 +1,28 @@
+.form-thaydoitt{
+    width: 80%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.form-thaydoitt h1{
+    text-align: center;
+    padding: 1% 1%;
+}
+
+.form-thaydoitt input[type="text"],
+.form-thaydoitt input[type="password"],
+.form-thaydoitt input[type="number"],
+.form-thaydoitt input[type="email"]{
+    width: 50%;
+    font-size: 1vw;
+    outline: none ;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.form-thaydoitt input[type="submit"],
+.form-thaydoitt input[type="reset"]{
+    width: 20%;
+    margin-left: 5%;
+    height: 3vw;
+}

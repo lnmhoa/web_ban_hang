@@ -1,0 +1,123 @@
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    flex-grow: 1;
+    border-bottom: 2px black solid;
+    position: relative;
+}
+
+.form-input:focus{
+    border-bottom: 2px solid blue;
+}
+
+.successcolor{
+    border-bottom: 2px solid rgb(13, 238, 13);
+}
+
+.errorcolor{
+    border-bottom: 2px solid red;
+}
+
+.form-dk-dn-item small{
+    margin-left: 20px;
+    position: absolute;
+    font-size: 15px;
+    color: red;
+}
+
+.form-dk-dn-item i{
+    font-size: 20px;
+}
+
+/* #form-dk-dn{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+} */
+
+.form-dk-dn{
+    background-color: #efefef;
+    flex-grow: 1;
+    padding: 2% 2%;
+    margin-bottom: 15px;
+    box-shadow: 0 0 2px black;
+}
+
+.form-dk-dn-title{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.form-input::placeholder{
+    color: black;
+}
+
+.form-dk-dn-submit{
+    background: transparent;
+    border: 1px solid black;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 2% 2%;
+    margin-top: 5%;
+    background-color: black;
+}
+
+.form-dk-dn-1{
+    margin-top: 8%;
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.form-dk-dn a{
+    color: blue;
+    text-decoration: none;
+}
+
+.form-dk-dn a{
+    text-decoration: underline;
+}
+
+.form-dk-dn-checkbox{
+    margin-top: 6%;
+}
+
+.form-dk-dn-checkbox label{
+    font-size: 15px;
+}
+
+.form-dk-dn-cotk{
+    font-size: 15px;
+    margin-top: 2%;
+}
+
+#eye i{
+    cursor: pointer;
+}
+
+#eye2 i{
+    cursor: pointer;
+}
+
+
+.form-dk-dn-submit:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#form-dk-dn h1{
+    text-transform: uppercase;
+}
+
+.form-dk-dn-2{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 55% 45%;
+}
+
+.form-dk-dn-item .error{
+    color: red;
+}
